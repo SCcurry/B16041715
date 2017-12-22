@@ -1,3 +1,24 @@
-﻿  stdafx.cpp
-  tetris.cpp
-  tetris.vcxproj -> E:\code\C++\mytetris\B16041715HeQinYang\tetris\Debug\tetris.exe
+﻿tetris.obj : error LNK2005: "int __cdecl CheckValide(int,int,int (* const)[4])" (?CheckValide@@YAHHHQAY03H@Z) 已经在 mytetristest.obj 中定义
+tetris.obj : error LNK2005: "void __cdecl RotateTeris(int (* const)[4])" (?RotateTeris@@YAXQAY03H@Z) 已经在 mytetristest.obj 中定义
+tetris.obj : error LNK2005: "bool (* g_hasBlocked)[50]" (?g_hasBlocked@@3PAY0DC@_NA) 已经在 mytetristest.obj 中定义
+tetris.obj : error LNK2005: "struct tagRECT rc_left" (?rc_left@@3UtagRECT@@A) 已经在 mytetristest.obj 中定义
+tetris.obj : error LNK2005: "struct tagRECT rc_right" (?rc_right@@3UtagRECT@@A) 已经在 mytetristest.obj 中定义
+tetris.obj : error LNK2005: "struct tagRECT rc_right_top" (?rc_right_top@@3UtagRECT@@A) 已经在 mytetristest.obj 中定义
+tetris.obj : error LNK2005: "struct tagRECT rc_right_bottom" (?rc_right_bottom@@3UtagRECT@@A) 已经在 mytetristest.obj 中定义
+tetris.obj : error LNK2005: "struct tagRECT rc_main" (?rc_main@@3UtagRECT@@A) 已经在 mytetristest.obj 中定义
+tetris.obj : error LNK2005: "int g_speed" (?g_speed@@3HA) 已经在 mytetristest.obj 中定义
+tetris.obj : error LNK2005: "int t_speed" (?t_speed@@3HA) 已经在 mytetristest.obj 中定义
+tetris.obj : error LNK2005: "int (* bCurTeris)[4]" (?bCurTeris@@3PAY03HA) 已经在 mytetristest.obj 中定义
+tetris.obj : error LNK2005: "int (* bNextCurTeris)[4]" (?bNextCurTeris@@3PAY03HA) 已经在 mytetristest.obj 中定义
+tetris.obj : error LNK2005: "int curPosX" (?curPosX@@3HA) 已经在 mytetristest.obj 中定义
+tetris.obj : error LNK2005: "int curPosY" (?curPosY@@3HA) 已经在 mytetristest.obj 中定义
+tetris.obj : error LNK2005: "int rd_seed" (?rd_seed@@3HA) 已经在 mytetristest.obj 中定义
+tetris.obj : error LNK2005: "int tPre" (?tPre@@3HA) 已经在 mytetristest.obj 中定义
+tetris.obj : error LNK2005: "int tCur" (?tCur@@3HA) 已经在 mytetristest.obj 中定义
+tetris.obj : error LNK2005: "int GAME_STATE" (?GAME_STATE@@3HA) 已经在 mytetristest.obj 中定义
+tetris.obj : error LNK2005: "int GAME_SCORE" (?GAME_SCORE@@3HA) 已经在 mytetristest.obj 中定义
+tetris.obj : error LNK2005: "int GAME_DIFF" (?GAME_DIFF@@3HA) 已经在 mytetristest.obj 中定义
+tetris.obj : error LNK2005: "int NUM_X" (?NUM_X@@3HA) 已经在 mytetristest.obj 中定义
+tetris.obj : error LNK2005: "int NUM_Y" (?NUM_Y@@3HA) 已经在 mytetristest.obj 中定义
+tetris.obj : error LNK2005: "int BLOCK_SIZE" (?BLOCK_SIZE@@3HA) 已经在 mytetristest.obj 中定义
+E:\code\C++\mytetris\B16041715HeQinYang\B16041715\tetris\Debug\tetris.exe : fatal error LNK1169: 找到一个或多个多重定义的符号
