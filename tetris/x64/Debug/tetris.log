@@ -1,0 +1,6 @@
+﻿  stdafx.cpp
+  tetris.cpp
+e:\1812584700\filerecv\tetris\tetris.cpp(645): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+e:\1812584700\filerecv\tetris\tetris.cpp(664): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+e:\1812584700\filerecv\tetris\tetris.cpp(675): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+  tetris.vcxproj -> E:\1812584700\FileRecv\x64\Debug\tetris.exe
